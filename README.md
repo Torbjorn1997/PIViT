@@ -22,7 +22,7 @@ If you use the code in your research, please cite:
 ```
 The overall framework of the code and the Swin Transformer module are based on [VoxelMorph](https://github.com/voxelmorph/voxelmorph) and [TransMorph](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration), whose contributions are greatly appreciated.
 ## Test
-We provide the pre-trained model and two images for testing from the MMRR subset of the Mindboggle dataset. You can test it with the following code:
+We provide the [pre-trained model](https://drive.google.com/file/d/1yjFr6bcjv-UcSXVA-VI2UkwWwfpNSTqu/view?usp=drive_link) and two images for testing from the MMRR subset of the Mindboggle dataset. You can test it with the following code:
 ```code
 python test.py --scansdir   data/vol --labelsdir  data/seg --dataset mind --labels  data/label_mind.npz --model model/0980.pt --gpu 0
 ```
