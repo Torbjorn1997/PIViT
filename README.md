@@ -24,7 +24,7 @@ The overall framework of the code and the Swin Transformer module are based on [
 ## Test
 We provide the [pre-trained model](https://drive.google.com/file/d/1yjFr6bcjv-UcSXVA-VI2UkwWwfpNSTqu/view?usp=drive_link) and two images for testing from the MMRR subset of the Mindboggle dataset. You can test it with the following code:
 ```code
-python test.py --scansdir   data/vol --labelsdir  data/seg --dataset mind --labels  data/label_mind.npz --model model/0980.pt --gpu 0
+python test.py --scansdir   data/vol --labelsdir  data/seg --dataset mind --labels  data/label_mind.npz --model 0980.pt --gpu 0
 ```
 The test results are:
 ![image](https://github.com/Torbjorn1997/PIViT/assets/28394656/72748cef-569d-49cc-ad00-1474164191c2)
